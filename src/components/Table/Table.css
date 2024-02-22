@@ -1,0 +1,74 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+    height: 100px;
+    overflow: auto;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #bdb2b2;
+    cursor: pointer;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+select {
+    padding: 3px;
+    width: 100px;
+    margin-left: 10px;
+    border: 1px solid green;
+    border-radius: 6px;
+}
+
+.filter__checker {
+    margin-right: 25px;
+}
+
+.filter__search input {
+    border-radius: 6px;
+    padding: 6px;
+    margin-right: 25px;
+    border: 1px solid green;
+}
+
+.active {
+    opacity: 0.6;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.pagination span {
+    font-size: 24px;
+}
+.pagination button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: black;
+    float: left;
+    text-decoration: none;
+    margin: 15px;
+}
