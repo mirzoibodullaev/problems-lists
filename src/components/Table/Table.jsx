@@ -18,7 +18,6 @@ const Table = () => {
                     title: titleFilter,
                     page,
                     page_size: 14,
-                    pages_Count: 116,
                     ordering: sortBy,
                     has_checker: checkerValue,
                     has_solution: solutionValue,
