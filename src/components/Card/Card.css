@@ -1,0 +1,28 @@
+.card {
+    border-radius: 8px;
+    width: 403px;
+    height: 150px;
+    background-color: #15171c;
+    padding: 25px;
+    position: relative;
+}
+
+.card__title {
+    color: white;
+    font-size: 1.285rem;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 25px;
+}
+
+.solved {
+    color: #53d28c;
+    margin-right: 10px;
+}
+.unsolved {
+    color: #ee7677;
+}
